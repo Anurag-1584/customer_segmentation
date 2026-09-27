@@ -1,13 +1,13 @@
-# 🛍️ Customer Segmentation Using K-Means Clustering
+# Customer Segmentation Using K-Means Clustering
 
-Hey there! 👋  
+Hey there!  
 This is a simple and practical machine learning project where I tried to segment customers based on their purchasing behavior using unsupervised learning. I used **K-Means Clustering** to group similar customers together so businesses can understand them better and take smarter decisions like targeted marketing or loyalty rewards.
 
 The dataset I used is from **Online Retail II**, which contains transactional data for an e-commerce company based in the UK. It’s a popular dataset on Kaggle and perfect for hands-on learning.
 
 ---
 
-## 🔍 What This Project Is About
+##  What This Project Is About
 
 The main goal was to:
 - Group customers based on how recently and frequently they purchase, and how much money they spend.
@@ -18,7 +18,7 @@ This technique is very useful in real-life marketing strategies. Think of how Ne
 
 ---
 
-## 📊 Dataset Details
+##  Dataset Details
 
 - **Name**: Online Retail II
 - **Source**: [Kaggle](https://www.kaggle.com/datasets/mmartin/online-retail-ii-data-set-from-ml-repository)
@@ -27,9 +27,9 @@ This technique is very useful in real-life marketing strategies. Think of how Ne
 
 ---
 
-## 🧰 Tools & Libraries Used
+## Tools & Libraries Used
 
-- Python 🐍  
+- Python 
 - Pandas, NumPy – for data handling  
 - Matplotlib, Seaborn – for visualizations  
 - Scikit-learn – for machine learning (KMeans, scaling)  
@@ -37,7 +37,7 @@ This technique is very useful in real-life marketing strategies. Think of how Ne
 
 ---
 
-## 🔧 Steps I Followed
+##  Steps I Followed
 
 ### 1. Data Cleaning
 - Removed rows with missing Customer IDs
@@ -62,12 +62,12 @@ This technique is very useful in real-life marketing strategies. Think of how Ne
 
 ---
 
-## 🎯 Results in Simple Words
+##  Results in Simple Words
 
 After clustering, I got groups like:
-- 🟢 **Loyal customers**: They buy often, spend well, and recently shopped.
-- 🟡 **Potential churners**: They used to spend a lot but haven’t bought anything recently.
-- 🔴 **Low-value customers**: They rarely buy and don’t spend much.
+- **Loyal customers**: They buy often, spend well, and recently shopped.
+- **Potential churners**: They used to spend a lot but haven’t bought anything recently.
+-  **Low-value customers**: They rarely buy and don’t spend much.
 
 With this kind of segmentation, a business can:
 - Give discounts to loyal customers
